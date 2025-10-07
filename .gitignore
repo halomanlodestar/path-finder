@@ -3,6 +3,7 @@
 # Build directory
 build/
 bin/
+obj/
 CMakeUserPresets.json # Local user presets, if used
 
 # CMake-generated files and directories
