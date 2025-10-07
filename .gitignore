@@ -1,10 +1,9 @@
-.vscode
-
 # Build directory
 build/
 bin/
 obj/
 CMakeUserPresets.json # Local user presets, if used
+.cache
 
 # CMake-generated files and directories
 CMakeCache.txt
@@ -34,8 +33,8 @@ _CPack_Packages/ # CPack generated packages
 DartConfiguration.tcl # CTest configuration
 
 # IDE specific files (common examples)
-.idea/ # IntelliJ IDEA
-.vscode/ # VS Code
+.idea
+.vscode
 *.iml # IntelliJ IDEA module files
 *.swp # Vim swap files
 *.bak # Backup files
