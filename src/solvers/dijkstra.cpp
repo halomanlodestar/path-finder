@@ -1,4 +1,4 @@
-#include "maze-solver/solver.hpp"
+#include "path-finder/solver.hpp"
 
 class DijkstraSolver : Solver {
   public:

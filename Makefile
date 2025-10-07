@@ -11,7 +11,7 @@ BINDIR = bin
 # Source files
 SOURCES = $(wildcard $(SRCDIR)/*.cpp) $(wildcard $(SRCDIR)/*/*.cpp)
 OBJECTS = $(patsubst $(SRCDIR)/%.cpp,$(OBJDIR)/%.o,$(SOURCES))
-TARGET = $(BINDIR)/maze-solver
+TARGET = $(BINDIR)/path-finder
 
 # Default target
 all: $(TARGET)
