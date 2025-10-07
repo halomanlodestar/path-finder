@@ -1,0 +1,48 @@
+.vscode
+
+# Build directory
+build/
+bin/
+CMakeUserPresets.json # Local user presets, if used
+
+# CMake-generated files and directories
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile # If using makefiles
+*.cbp # Code::Blocks project files
+*.vcxproj* # Visual Studio project files and filters
+*.sln # Visual Studio solution files
+*.suo # Visual Studio solution user options
+*.user # Visual Studio user files
+*.vcproj # Visual C++ project files
+*.ncb # Visual Studio IntelliSense database
+*.aps # Visual Studio resource compiler intermediate files
+*.obj # Object files
+*.o # Object files
+*.lo # Libtool object files
+*.la # Libtool archives
+*.so # Shared libraries
+*.dylib # macOS dynamic libraries
+*.dll # Windows dynamic link libraries
+*.exe # Executables
+*.out # Executables
+*.a # Static libraries
+*.lib # Windows static libraries
+_CPack_Packages/ # CPack generated packages
+DartConfiguration.tcl # CTest configuration
+
+# IDE specific files (common examples)
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.iml # IntelliJ IDEA module files
+*.swp # Vim swap files
+*.bak # Backup files
+
+# Operating system specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+
+# Dependency management (if applicable)
+vcpkg_installed/ # vcpkg installation directory
